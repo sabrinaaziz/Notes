@@ -62,7 +62,7 @@ class Notes extends React.Component {
                 body: JSON.stringify(newNotes)
             };
 
-         
+            console.log(requestOptions)
             const response = await fetch(apiUrl, requestOptions);
 
             
